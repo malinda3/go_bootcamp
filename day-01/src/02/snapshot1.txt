@@ -1,0 +1,7 @@
+/etc/stove/config.xml
+/Users/baker/recipes/database.xml
+/Users/baker/recipes/database_version2.yaml
+/var/log/orders.log
+/var/log/orders2.log
+/var/log/orders3.log
+/var/log/orders4.log
