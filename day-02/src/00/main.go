@@ -1,7 +1,7 @@
 package main
 
 import (
-	"00/dirpass"
+	"myFind/dirpass"
 	"flag"
 	"fmt"
 	"log"

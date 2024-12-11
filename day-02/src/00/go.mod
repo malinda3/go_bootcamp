@@ -1,3 +1,3 @@
-module 00
+module myFind
 
 go 1.22.3

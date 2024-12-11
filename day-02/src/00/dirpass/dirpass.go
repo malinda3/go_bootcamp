@@ -76,9 +76,7 @@ func FilterByType(entries []FileEntry, includeFiles, includeDirs, includeSymlink
 			filtered = append(filtered, entry)
 		} else if includeSymlinks && entry.IsSymlink {
 			filtered = append(filtered, entry)
-		} else {
-			return entries
-		}
+		} 
 	}
 
 	return filtered
@@ -93,9 +91,9 @@ func PrintFiles(entries []FileEntry) {
 			}
 		} else {
 			if entry.IsDir {
-				fmt.Printf("%s [DIR]\n", entry.Path)
+				fmt.Printf("%s\n", entry.Path)
 			} else {
-				fmt.Printf("%s [FILE]\n", entry.Path)
+				fmt.Printf("%s\n", entry.Path)
 			}
 		}
 	}
